@@ -365,6 +365,127 @@
     font-weight: 400;
 }
 
+/* Testimonials Section */
+
+#testimonials-section {
+    background-image: url("./assets/customers.png");
+    background-size: cover;
+    background-position: top;
+    background-color: #fbfafa;
+}
+
+.testimonials-section__container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 80px;
+}
+
+.testimonials-section__container h2 {
+    font-size: 60px;
+    line-height: 70px;
+    color: #311f09;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.testimonials-section__testimonials {
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+}
+
+.testimonials-section__testimonial {
+    width: 30%;
+    text-align: center;
+}
+
+.testimonials-section__testimonial img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 35px;
+}
+
+.testimonials-section__testimonial h4 {
+    color: #311f09;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 50px;
+}
+
+.testimonials-section__testimonial h5 {
+    color: #5c4529;
+    font-size: 18px;
+    line-height: 36px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.testimonials-section__testimonial p {
+    color: #5c4529;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+/* Business Hours Section */
+
+.hours-section__container {
+    max-width: 1440px;
+    padding: 80px;
+    margin: 0 auto;
+}
+
+.hours-section__background {
+    max-width: 1150px;
+    height: 750px;
+    margin: 0 auto;
+    border-radius: 150px;
+
+    background-image: url("./assets/business-hours.png");
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hours-section__hours h2 {
+    color: #ffffff;
+    font-size: 60px;
+    line-height: 70px;
+    margin-bottom: 15px;
+}
+
+.hours-section__hours h3 {
+    color: #ffffff;
+    font-size: 30px;
+    line-height: 60px;
+    font-weight: 600;
+}
+
+.hours-section__lunch-dinner {
+    width: max-content;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.hours-section__lunch-dinner p {
+    color: #ffffff;
+    text-align: center;
+
+    line-height: 200%;
+}
+
+.hours-section__lunch-dinner p:last-child {
+    text-align: right;
+}
+
+.hours-section__hours .btn-large-orange {
+    margin-right: 15px;
+}
+
+
 /* Footer */
 
 #footer {
