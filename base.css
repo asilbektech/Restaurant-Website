@@ -18,8 +18,8 @@ a {
 
 .btn-small-green {
     height: 50px;
-    color: #ffffff;
-    background-color: #3fa72f;
+    color: #ffffff rgb(255, 255, 255);
+    background-color: #3fa72f rgb(63, 167, 47);
     border-radius: 133px;
     border: none;
     padding-left: 36px;
