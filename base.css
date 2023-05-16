@@ -29,10 +29,10 @@ a {
 
 .btn-large-green {
     height: 74px;
-    color: #ffffff;
+    color: #ffffff rgb(255, 255, 255);
     font-size: 20px;
     font-weight: 600;
-    background-color: #3fa72f;
+    background-color: #3fa72f rgb(63, 167, 47);
     border: none;
     border-radius: 162px;
     padding-right: 55px;
@@ -42,10 +42,10 @@ a {
 
 .btn-large-orange {
     height: 74px;
-    color: #ffffff;
+    color: #ffffff rgb(255, 255, 255);
     font-size: 20px;
     font-weight: 600;
-    background-color: #ff8a00;
+    background-color: #ff8a00 rgb(255, 138, 0);
     border: none;
     border-radius: 162px;
     padding-right: 55px;
@@ -55,10 +55,10 @@ a {
 
 .btn-md-orange {
     height: 55px;
-    color: #ffffff;
+    color: #ffffff rgb(255, 255, 255);
     font-size: 16px;
     font-weight: 400;
-    background-color: #ff8a00;
+    background-color: #ff8a00 rgb(255, 138, 0);
     border: none;
     border-radius: 162px;
     padding-right: 36px;
@@ -68,10 +68,10 @@ a {
 
 .btn-large-black {
     height: 74px;
-    color: #ffffff;
+    color: #ffffff rgb(255, 255, 255);
     font-size: 20px;
     font-weight: 600;
-    background-color: #311f09;
+    background-color: #311f09 rgb(49, 31, 9);
     border: none;
     border-radius: 162px;
     padding-right: 55px;
@@ -81,10 +81,10 @@ a {
 
 .btn-large-gray {
     height: 74px;
-    color: #311f09;
+    color: #311f09 rgb(49, 31, 9);
     font-size: 20px;
     font-weight: 600;
-    background-color: #ecf0f1;
+    background-color: #ecf0f1 rgb(236, 240, 241);
     border: none;
     border-radius: 162px;
     padding-right: 55px;
@@ -94,10 +94,10 @@ a {
 
 .btn-large-white {
     height: 74px;
-    color: #311f09;
+    color: #311f09 rgb(49, 31, 9);
     font-size: 20px;
     font-weight: 600;
-    background-color: #ffffff;
+    background-color: #ffffff rgb(255, 255, 255);
     border: none;
     border-radius: 162px;
     padding-right: 55px;
@@ -132,22 +132,22 @@ a {
     padding-left: 36px;
 }
 .btn-green {
-    color: #ffffff;
-    background-color: #3fa72f;
+    color: #ffffff rgb(255, 255, 255);
+    background-color: #3fa72f rgb(63, 167, 47);
 }
 .btn-orange {
-    color: #ffffff;
-    background-color: #ff8a00;
+    color: #ffffff rgb(255, 255, 255);
+    background-color: #ff8a00 rgb(255, 138, 0);
 }
 .btn-black {
-    color: #ffffff;
-    background-color: #311f09;
+    color: #ffffff rgb(255, 255, 255);
+    background-color: #311f09 rgb(49, 31, 9);
 }
 .btn-gray {
-    color: #311f09;
-    background-color: #ecf0f1;
+    color: #311f09 rgb(49, 31, 9);
+    background-color: #ecf0f1 rgb(236, 240, 241);
 }
 .btn-white {
-    color: #311f09;
-    background-color: #ffffff;
+    color: #311f09 rgb(49, 31, 9);
+    background-color: #ffffff rgb(255, 255, 255);
 }
