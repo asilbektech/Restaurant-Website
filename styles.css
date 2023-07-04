@@ -18,8 +18,6 @@
     max-width: 1440px;
     margin: 0 auto;
 
-    display: flex;
-    justify-content: space-between;
     align-items: center;
     height: 100%;
     padding-left: 80px;
@@ -27,7 +25,6 @@
 }
 
 .navigation__links {
-    display: flex;
     gap: 45px;
     align-items: center;
 }
@@ -49,7 +46,6 @@
 } */
 
 .navigation__actions {
-    display: flex;
     align-items: center;
     /* gap: 25px; */
 }
@@ -64,7 +60,6 @@
     width: 50px;
     background-color: #ecf0f1;
     border-radius: 50%;
-    display: flex;
     align-items: center;
     justify-content: center;
     margin-right: 25px;
@@ -78,10 +73,8 @@
     padding-right: 80px;
     padding-top: 80px;
     padding-bottom: 80px; */
-    padding: 80px;
-    margin: 0 auto;
 
-    display: flex;
+    margin: 0 auto;
     align-items: center;
     gap: 40px;
 }
@@ -97,25 +90,22 @@
 
 .hero-section__img {
     width: 100%;
-    height: auto;
 }
 
 .hero-section__left span {
     display: block;
-    width: max-content;
-    margin-bottom: 24px;
+
     background-color: rgba(255, 138, 0, 0.2);
     color: var(--color-orange);
-    font-size: 18px;
+
     border-radius: 123px;
     padding: 5px 20px;
 }
 
 .hero-section__heading {
-    margin-bottom: 24px;
     color: var(--color-1);
     font-size: 80px;
-    font-weight: 600;
+
     line-height: 88px;
 }
 
@@ -137,8 +127,6 @@
 .welcome-section__container {
     max-width: 1440px;
     margin: 0 auto;
-
-    display: flex;
     align-items: center;
     padding-top: 80px;
     padding-right: 80px;
@@ -149,7 +137,6 @@
 }
 .welcome-section__left img {
     width: 100%;
-    height: auto;
 }
 
 .welcome-section__right {
@@ -157,7 +144,6 @@
 }
 
 .welcome-section__right h2 {
-    font-size: 60px;
     line-height: 70px;
     color: var(--color-1);
     margin-bottom: 50px;
@@ -179,25 +165,19 @@
 .menu-section__container {
     max-width: 1440px;
     margin: 0 auto;
-    padding: 80px;
 }
 
 .menu-section__container h2 {
-    text-align: center;
-    font-size: 60px;
     line-height: 70px;
     color: var(--color-1);
     margin-bottom: 50px;
 }
 
 .menu-section__filters {
-    display: flex;
-    justify-content: space-between;
     margin-bottom: 60px;
 }
 
 .menu-section__meals {
-    display: flex;
     flex-wrap: wrap;
     gap: 40px;
 }
@@ -206,14 +186,11 @@
     margin-bottom: 15px;
     margin-right: auto;
     margin-left: auto;
-    width: max-content;
 }
 
 .menu-section__price {
-    font-size: 25px;
     line-height: 38px;
     color: var(--color-1);
-    font-weight: 600;
 }
 
 .card {
@@ -227,15 +204,11 @@
 
 .card__img {
     width: 100%;
-    height: auto;
-    margin-bottom: 24px;
 }
 
 .card__title {
     font-size: 30px;
     line-height: 60px;
-    font-weight: 600;
-    text-align: center;
 
     margin-bottom: 5px;
 }
@@ -244,14 +217,12 @@
     font-size: 14px;
     line-height: 28px;
     color: rgb(89, 68, 43);
-    text-align: center;
+
     margin-bottom: 30px;
 }
 
 .card__footer {
-    display: flex;
     align-items: center;
-    justify-content: space-between;
 }
 
 /* Reservation Section */
@@ -268,7 +239,6 @@
     max-width: 1440px;
     margin: 0 auto;
 
-    display: flex;
     align-items: center;
     gap: 40px;
 }
@@ -279,7 +249,6 @@
 
 .reservation-section__left img {
     width: 100%;
-    height: auto;
 }
 
 .reservation-section__right {
@@ -287,7 +256,6 @@
 }
 
 .reservation-section__right h2 {
-    font-size: 60px;
     line-height: 70px;
     color: var(--color-1);
     margin-bottom: 50px;
@@ -305,16 +273,12 @@
 }
 
 /* Chefs Section */
-#chefs-section {
-    text-align: center;
-}
+
 .chefs-section__container {
     max-width: 1440px;
     margin: 0 auto;
-    padding: 80px;
 }
 .chefs-section__container h2 {
-    font-size: 60px;
     line-height: 70px;
     color: var(--color-1);
     margin-bottom: 50px;
@@ -324,7 +288,6 @@
 }
 
 .chefs-section__chefs {
-    display: flex;
     gap: 40px;
     margin: 80px;
 }
@@ -340,7 +303,7 @@
 
 .chefs-section__chef img {
     width: 100%;
-    height: auto;
+
     border-radius: 50px;
     margin-bottom: 40px;
 }
@@ -362,15 +325,11 @@
 .chefs-section__chef h4 {
     margin-bottom: 15px;
     color: var(--color-1);
-    font-weight: 600;
-    font-size: 25px;
-    line-height: 50px;
 }
 
 .chefs-section__chef p {
     color: rgb(160, 141, 118);
-    font-size: 25px;
-    line-height: 50px;
+
     font-weight: 400;
 }
 
@@ -386,26 +345,16 @@
 .testimonials-section__container {
     max-width: 1440px;
     margin: 0 auto;
-    padding: 80px;
 }
 
 .testimonials-section__container h2 {
-    font-size: 60px;
     line-height: 70px;
     color: var(--color-1);
     margin-bottom: 100px;
-    text-align: center;
 }
 
 .testimonials-section__testimonials {
-    display: flex;
     gap: 40px;
-    justify-content: space-between;
-}
-
-.testimonials-section__testimonial {
-    width: 30%;
-    text-align: center;
 }
 
 .testimonials-section__testimonial img {
@@ -417,23 +366,19 @@
 
 .testimonials-section__testimonial h4 {
     color: var(--color-1);
-    font-weight: 600;
-    font-size: 25px;
-    line-height: 50px;
 }
 
 .testimonials-section__testimonial h5 {
     color: var(--color-2);
-    font-size: 18px;
+
     line-height: 36px;
-    font-weight: 600;
+
     margin-bottom: 20px;
 }
 
 .testimonials-section__testimonial p {
     color: var(--color-2);
     font-weight: 400;
-    font-size: 16px;
     line-height: 32px;
 }
 
@@ -441,7 +386,7 @@
 
 .hours-section__container {
     max-width: 1440px;
-    padding: 80px;
+
     margin: 0 auto;
 }
 
@@ -453,36 +398,25 @@
 
     background-image: url("./assets/business-hours.png");
 
-    display: flex;
     align-items: center;
     justify-content: center;
-    text-align: center;
 }
-
 .hours-section__hours h2 {
-    color: rgb(255, 255, 255);
-    font-size: 60px;
     line-height: 70px;
     margin-bottom: 15px;
 }
 
 .hours-section__hours h3 {
-    color: rgb(255, 255, 255);
     font-size: 30px;
     line-height: 60px;
-    font-weight: 600;
 }
 
 .hours-section__lunch-dinner {
-    width: max-content;
     margin: 0 auto;
     margin-bottom: 50px;
 }
 
 .hours-section__lunch-dinner p {
-    color: rgb(255, 255, 255);
-    text-align: center;
-
     line-height: 200%;
 }
 
@@ -503,56 +437,163 @@
 .footer__container {
     max-width: 1440px;
     margin: 0 auto;
-    padding: 80px;
 }
 
 .footer__content {
-    display: flex;
-    justify-content: space-between;
     margin-bottom: 80px;
 }
 
 .footer__text {
     color: rgb(227, 226, 224);
-    font-size: 16px;
+
     line-height: 32px;
     display: block;
 }
 
-.footer__brand {
-    width: 30%;
-}
-
-.text-center {
-    text-align: center;
-}
-
 .footer__heading {
     color: var(--color-orange);
-    font-size: 25px;
-    line-height: 50px;
 }
 
 .footer__social-icons {
     margin-top: 40px;
 }
 
-.footer__social-icons img:first-child {
-    margin-right: 30px;
-}
-
-.footer__social-icons img:nth-child(2) {
-    margin-right: 30px;
-}
-
 .footer__logo {
     margin-bottom: 25px;
 }
 
-.footer__contact {
+.footer__contact p {
+    line-height: 24px;
+}
+
+.hours-section__hours h2,
+.testimonials-section__container h2,
+.chefs-section__container h2,
+.reservation-section__right h2,
+.menu-section__container h2,
+.welcome-section__right h2 {
+    font-size: 60px;
+}
+
+.hero-section__img,
+.welcome-section__left img,
+.card__img,
+.reservation-section__left img,
+.chefs-section__chef img {
+    height: auto;
+}
+
+/* .footer__social-icons img:first-child {
+    margin-right: 30px;
+} */
+
+.footer__social-icons img:nth-child(2),
+.footer__social-icons img:first-child {
+    margin-right: 30px;
+}
+
+.footer__contact,
+.footer__brand,
+.testimonials-section__testimonial {
     width: 30%;
 }
 
-.footer__contact p {
-    line-height: 24px;
+.testimonials-section__testimonial p,
+.footer__text {
+    font-size: 16px;
+}
+
+.hero-section__left span,
+.testimonials-section__testimonial h5 {
+    font-size: 18;
+}
+
+.hero-section__left span,
+.card__img,
+.card__img,
+.hero-section__heading {
+    margin-bottom: 24px;
+}
+
+.chefs-section__chef h4,
+.footer__heading,
+.testimonials-section__testimonial h4,
+.chefs-section__chef p {
+    line-height: 50px;
+}
+
+.menu-section__container h2,
+.card__title,
+.card__text,
+#chefs-section,
+.testimonials-section__container h2,
+.testimonials-section__testimonial,
+.hours-section__background,
+.hours-section__lunch-dinner p,
+.text-center {
+    text-align: center;
+}
+
+.navigation,
+.footer__content,
+.menu-section__filters,
+.card__footer,
+.testimonials-section__testimonials {
+    justify-content: space-between;
+}
+
+.hero-section__heading,
+.menu-section__price,
+.card__title,
+.chefs-section__chef h4,
+.testimonials-section__testimonial h4,
+.testimonials-section__testimonial h5,
+.hours-section__hours h3 {
+    font-weight: 600;
+}
+
+.menu-section__price,
+.chefs-section__chef h4,
+.chefs-section__chef p,
+.testimonials-section__testimonial h4,
+.footer__heading {
+    font-size: 25px;
+}
+
+.footer__content,
+.navigation,
+.navigation__links,
+.navigation__actions,
+.navigation__actions figure,
+.hero-section__container,
+.welcome-section__container,
+.menu-section__filters,
+.menu-section__meals,
+.card__footer,
+.reservation-section__container,
+.chefs-section__chefs,
+.testimonials-section__testimonials,
+.hours-section__background {
+    display: flex;
+}
+
+.hours-section__hours h2,
+.hours-section__hours h3,
+.hours-section__lunch-dinner p {
+    color: rgb(255, 255, 255);
+}
+
+.hero-section__left span,
+.menu-section__stars,
+.hours-section__lunch-dinner {
+    width: max-content;
+}
+
+.hero-section__container,
+.menu-section__container,
+.chefs-section__container,
+.testimonials-section__container,
+.hours-section__container,
+.footer__container {
+    padding: 80px;
 }
