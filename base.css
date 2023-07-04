@@ -16,10 +16,18 @@ a {
     text-decoration: none;
 }
 
+:root {
+    --button-orange: #ff8a00;
+    --button-green: #3fa72f;
+    --button-gray: #311f09;
+    --color: #ffffff;
+    --background-color: #ecf0f1;
+}
+
 .btn-small-green {
     height: 50px;
-    color: rgb(255, 255, 255);
-    background-color: rgb(63, 167, 47);
+    color: var(--color);
+    background-color: var(--button-green);
     border-radius: 133px;
     border: none;
     padding-left: 36px;
@@ -29,10 +37,10 @@ a {
 
 .btn-large-green {
     height: 74px;
-    color: #ffffff rgb(255, 255, 255);
+    color: var(--color);
     font-size: 20px;
     font-weight: 600;
-    background-color: #3fa72f rgb(63, 167, 47);
+    background-color: var(--button-green);
     border: none;
     border-radius: 162px;
     padding-right: 55px;
@@ -42,10 +50,10 @@ a {
 
 .btn-large-orange {
     height: 74px;
-    color: #ffffff rgb(255, 255, 255);
+    color: var(--color);
     font-size: 20px;
     font-weight: 600;
-    background-color: #ff8a00 rgb(255, 138, 0);
+    background-color: var(--button-orange);
     border: none;
     border-radius: 162px;
     padding-right: 55px;
@@ -55,10 +63,10 @@ a {
 
 .btn-md-orange {
     height: 55px;
-    color: #ffffff rgb(255, 255, 255);
+    color: var(--color);
     font-size: 16px;
     font-weight: 400;
-    background-color: #ff8a00 rgb(255, 138, 0);
+    background-color: var(--button-orange);
     border: none;
     border-radius: 162px;
     padding-right: 36px;
@@ -68,10 +76,10 @@ a {
 
 .btn-large-black {
     height: 74px;
-    color: #ffffff rgb(255, 255, 255);
+    color: var(--color);
     font-size: 20px;
     font-weight: 600;
-    background-color: #311f09 rgb(49, 31, 9);
+    background-color: var(--button-gray);
     border: none;
     border-radius: 162px;
     padding-right: 55px;
@@ -81,10 +89,10 @@ a {
 
 .btn-large-gray {
     height: 74px;
-    color: #311f09 rgb(49, 31, 9);
+    color: var(--button-gray);
     font-size: 20px;
     font-weight: 600;
-    background-color: #ecf0f1 rgb(236, 240, 241);
+    background-color: var(--background-color);
     border: none;
     border-radius: 162px;
     padding-right: 55px;
@@ -94,10 +102,10 @@ a {
 
 .btn-large-white {
     height: 74px;
-    color: #311f09 rgb(49, 31, 9);
+    color: var(--button-gray);
     font-size: 20px;
     font-weight: 600;
-    background-color: #ffffff rgb(255, 255, 255);
+    background-color: var(--color);
     border: none;
     border-radius: 162px;
     padding-right: 55px;
@@ -132,22 +140,22 @@ a {
     padding-left: 36px;
 }
 .btn-green {
-    color: rgb(255, 255, 255);
-    background-color: rgb(63, 167, 47);
+    color: var(--color);
+    background-color: var(--button-green);
 }
 .btn-orange {
-    color: rgb(255, 255, 255);
-    background-color: rgb(255, 138, 0);
+    color: var(--color);
+    background-color: var(--button-orange);
 }
 .btn-black {
-    color: rgb(255, 255, 255);
-    background-color: rgb(49, 31, 9);
+    color: var(--color);
+    background-color: var(--button-gray);
 }
 .btn-gray {
-    color: rgb(49, 31, 9);
-    background-color: rgb(236, 240, 241);
+    color: var(--button-gray);
+    background-color: var(--background-color);
 }
 .btn-white {
-    color: rgb(49, 31, 9);
-    background-color: rgb(255, 255, 255);
+    color: var(--button-gray);
+    background-color: var(--color);
 }

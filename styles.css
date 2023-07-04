@@ -1,3 +1,9 @@
+:root {
+    --color-orange: #ff8a00;
+    --color-1: #311f09;
+    --color-2: #5c4529;
+}
+
 /* Header */
 
 .header {
@@ -27,12 +33,12 @@
 }
 
 .navigation__links li a {
-    color: rgb(49, 31, 9);
+    color: var(--color-1);
     font-size: 14px;
 }
 
 #navigation__link {
-    color: rgb(255, 138, 0);
+    color: var(--color-orange);
 }
 /* .navigation__links li:first-child a {
     color: #ff8a00;
@@ -56,7 +62,7 @@
 .navigation__actions figure {
     height: 50px;
     width: 50px;
-    background-color: rgb(236, 240, 241);
+    background-color: #ecf0f1;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -98,9 +104,8 @@
     display: block;
     width: max-content;
     margin-bottom: 24px;
-    background-color: #ff8a0033;
     background-color: rgba(255, 138, 0, 0.2);
-    color: rgb(255, 138, 0);
+    color: var(--color-orange);
     font-size: 18px;
     border-radius: 123px;
     padding: 5px 20px;
@@ -108,7 +113,7 @@
 
 .hero-section__heading {
     margin-bottom: 24px;
-    color: rgb(49, 31, 9);
+    color: var(--color-1);
     font-size: 80px;
     font-weight: 600;
     line-height: 88px;
@@ -116,7 +121,7 @@
 
 .hero-section__description {
     margin-bottom: 50px;
-    color: rgb(92, 69, 41);
+    color: var(--color-2);
     font-size: 20px;
 }
 
@@ -126,7 +131,6 @@
 /* Welcome Section */
 
 #welcome-section {
-    background-color: #3fc66e1a;
     background-color: rgba(63, 198, 110, 0.1);
 }
 
@@ -155,16 +159,16 @@
 .welcome-section__right h2 {
     font-size: 60px;
     line-height: 70px;
-    color: rgb(49, 31, 9);
+    color: var(--color-1);
     margin-bottom: 50px;
 }
 
 .welcome-section__right h2 span {
-    color: rgb(255, 138, 0);
+    color: var(--color-orange);
 }
 
 .welcome-section__right p {
-    color: rgb(92, 69, 41);
+    color: var(--color-2);
     font-size: 20px;
     line-height: 40px;
     margin-bottom: 40px;
@@ -182,7 +186,7 @@
     text-align: center;
     font-size: 60px;
     line-height: 70px;
-    color: rgb(49, 31, 9);
+    color: var(--color-1);
     margin-bottom: 50px;
 }
 
@@ -208,7 +212,7 @@
 .menu-section__price {
     font-size: 25px;
     line-height: 38px;
-    color: rgb(49, 31, 9);
+    color: var(--color-1);
     font-weight: 600;
 }
 
@@ -253,7 +257,6 @@
 /* Reservation Section */
 
 #reservation-section {
-    background-color: #fff4e766;
     background-color: rgba(255, 244, 231, 0.4);
 }
 
@@ -286,16 +289,16 @@
 .reservation-section__right h2 {
     font-size: 60px;
     line-height: 70px;
-    color: rgb(49, 31, 9);
+    color: var(--color-1);
     margin-bottom: 50px;
 }
 
 .reservation-section__right h2 span {
-    color: rgb(255, 138, 0);
+    color: var(--color-orange);
 }
 
 .reservation-section__right p {
-    color: rgb(92, 69, 41);
+    color: var(--color-2);
     font-size: 20px;
     line-height: 40px;
     margin-bottom: 40px;
@@ -313,11 +316,11 @@
 .chefs-section__container h2 {
     font-size: 60px;
     line-height: 70px;
-    color: rgb(49, 31, 9);
+    color: var(--color-1);
     margin-bottom: 50px;
 }
 .chefs-section__container h2 span {
-    color: rgb(255, 138, 0);
+    color: var(--color-orange);
 }
 
 .chefs-section__chefs {
@@ -358,7 +361,7 @@
 
 .chefs-section__chef h4 {
     margin-bottom: 15px;
-    color: rgb(49, 31, 9);
+    color: var(--color-1);
     font-weight: 600;
     font-size: 25px;
     line-height: 50px;
@@ -389,7 +392,7 @@
 .testimonials-section__container h2 {
     font-size: 60px;
     line-height: 70px;
-    color: rgb(49, 31, 9);
+    color: var(--color-1);
     margin-bottom: 100px;
     text-align: center;
 }
@@ -413,14 +416,14 @@
 }
 
 .testimonials-section__testimonial h4 {
-    color: rgb(49, 31, 9);
+    color: var(--color-1);
     font-weight: 600;
     font-size: 25px;
     line-height: 50px;
 }
 
 .testimonials-section__testimonial h5 {
-    color: rgb(92, 69, 41);
+    color: var(--color-2);
     font-size: 18px;
     line-height: 36px;
     font-weight: 600;
@@ -428,7 +431,7 @@
 }
 
 .testimonials-section__testimonial p {
-    color: rgb(92, 69, 41);
+    color: var(--color-2);
     font-weight: 400;
     font-size: 16px;
     line-height: 32px;
@@ -494,7 +497,7 @@
 /* Footer */
 
 #footer {
-    background-color: rgb(49, 31, 9);
+    background-color: var(--color-1);
 }
 
 .footer__container {
@@ -525,7 +528,7 @@
 }
 
 .footer__heading {
-    color: rgb(255, 138, 0);
+    color: var(--color-orange);
     font-size: 25px;
     line-height: 50px;
 }
